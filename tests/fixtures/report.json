@@ -1,0 +1,6 @@
+{
+  "resolved_ids": ["a__a-1"],
+  "unresolved_ids": ["b__b-2"],
+  "error_ids": ["c__c-3"],
+  "empty_patch_ids": ["d__d-4"]
+}

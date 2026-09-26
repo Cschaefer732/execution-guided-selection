@@ -1,0 +1,21 @@
+# spark-swe-eval subset v2 (2026-07-26) — validated on the arm64 GPU host's own grader (qemu emulation)
+# Grader = $GRADER_HOST, workdir=~/swe-grade-arm, max_workers=1 (arm64 via qemu-x86 binfmt).
+# The x86-only-grader constraint is OBSOLETE — the always-on arm64 host grades itself now.
+# Gate: gold resolves AND empty does not. New 10 passed 10/10 gold, 0 empty-leak on this host.
+# 5 repos: django, flask, pylint, requests, pytest. Heavy sympy/xarray/sphinx deferred (emulated-build cost).
+#
+# carried over from v1 (django-11099 & flask-5014 re-confirmed on this grader this session):
+django__django-11099
+pallets__flask-5014
+pylint-dev__pylint-7080
+# newly validated on this grader (2026-07-26):
+django__django-16082
+django__django-13406
+django__django-16429
+psf__requests-1921
+psf__requests-6028
+psf__requests-5414
+pylint-dev__pylint-4970
+pylint-dev__pylint-6903
+pytest-dev__pytest-6202
+pytest-dev__pytest-5262

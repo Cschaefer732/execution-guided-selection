@@ -1,0 +1,3 @@
+{"msg":"HTTP Request","body":"{\"model\":\"gpt-oss:120b\",\"messages\":[]}"}
+{"msg":"HTTP Response","usage":{"prompt_tokens":120,"completion_tokens":45}}
+{"msg":"HTTP Request","body":"{\"model\":\"gpt-oss:120b\",\"messages\":[]}"}

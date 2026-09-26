@@ -1,0 +1,11 @@
+# spark-swe-eval Phase-1 curated subset (2026-07-25)
+# Selection rule: pure-Python instances, one per repo, fast x86 grading on the grader host.
+# Grader = an x86 Docker host ($GRADER_HOST); agent = the local coding agent ($AGENT_HOST).
+# arm64 grading (running the grader on the same arm64 box as the agent) is broken here.
+# Validated by the gold/empty gate: gold resolves on all 3 below, empty resolves on none.
+# DROPPED after the gate (gold did NOT resolve under swebench 4.1 — untrustworthy, not silently omitted):
+#   psf__requests-2317, sphinx-doc__sphinx-8595
+# Small first pass (N=3, expandable). Wide CIs expected — for pipeline validation + a first real number.
+django__django-11099
+pallets__flask-5014
+pylint-dev__pylint-7080
