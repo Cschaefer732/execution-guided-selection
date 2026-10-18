@@ -5,3 +5,12 @@ runs/
 .ruff_cache/
 .pytest_cache/
 *.egg-info/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+id_rsa*
+*.secret
+secrets/
