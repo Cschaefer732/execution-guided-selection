@@ -5,3 +5,6 @@ runs/
 .ruff_cache/
 .pytest_cache/
 *.egg-info/
+
+# Obsidian local config (vault markdown is tracked, UI config is not)
+wiki/.obsidian/
